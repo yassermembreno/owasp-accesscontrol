@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp-accesscontrol.Domain", "owasp-accesscontrol.Domain\owasp-accesscontrol.Domain.csproj", "{5D3DE488-CE19-4D0B-9070-DE90326D74D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp-accesscontrol.Infrastructure", "owasp-accesscontrol.Infrastructure\owasp-accesscontrol.Infrastructure.csproj", "{30DDBF81-1A3D-44DF-9F1A-6C326B9712DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp-acccesscontrol.Application", "owasp-acccesscontrol.Application\owasp-acccesscontrol.Application.csproj", "{3A138721-946A-4DD2-BE03-BC58F66C5496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp-accesscontrol.WebApi", "owasp-accesscontrol.WebApi\owasp-accesscontrol.WebApi.csproj", "{301EAB62-B52A-431E-A7DB-1D9912BB7158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D3DE488-CE19-4D0B-9070-DE90326D74D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3DE488-CE19-4D0B-9070-DE90326D74D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3DE488-CE19-4D0B-9070-DE90326D74D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3DE488-CE19-4D0B-9070-DE90326D74D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DDBF81-1A3D-44DF-9F1A-6C326B9712DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DDBF81-1A3D-44DF-9F1A-6C326B9712DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DDBF81-1A3D-44DF-9F1A-6C326B9712DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DDBF81-1A3D-44DF-9F1A-6C326B9712DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A138721-946A-4DD2-BE03-BC58F66C5496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A138721-946A-4DD2-BE03-BC58F66C5496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A138721-946A-4DD2-BE03-BC58F66C5496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A138721-946A-4DD2-BE03-BC58F66C5496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301EAB62-B52A-431E-A7DB-1D9912BB7158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301EAB62-B52A-431E-A7DB-1D9912BB7158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301EAB62-B52A-431E-A7DB-1D9912BB7158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301EAB62-B52A-431E-A7DB-1D9912BB7158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
